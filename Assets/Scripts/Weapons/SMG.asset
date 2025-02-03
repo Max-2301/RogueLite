@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c12a70383fa6074a822cc8f4da48177, type: 3}
+  m_Name: SMG
+  m_EditorClassIdentifier: 
+  weaponName: SMG
+  weaponType: 2
+  dmg: 2
+  knockBack: 1
+  range: 1
+  sprite: {fileID: -144335857, guid: 0d5e657ee5a074e4baa53d5b248a01d2, type: 3}
+  weaponUseAudio: {fileID: 8300000, guid: db4f75e75dca9404695cd65818cb44bf, type: 3}
+  useTime: 0.2
+  spawnable: {fileID: 1667449674423440046, guid: fa899baa95571fc4a93687cb39b96781, type: 3}
+  maxAmmo: 200
+  maxMagazineAmmo: 50
+  reloadTime: 2
+  reloadAudio: {fileID: 8300000, guid: 89399531abbcc2942a69ec7e77a69157, type: 3}

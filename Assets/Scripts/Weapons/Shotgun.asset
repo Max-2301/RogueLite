@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c12a70383fa6074a822cc8f4da48177, type: 3}
+  m_Name: Shotgun
+  m_EditorClassIdentifier: 
+  weaponName: Shotgun
+  weaponType: 2
+  dmg: 1
+  range: 0.35
+  sprite: {fileID: 1772703093, guid: 0d5e657ee5a074e4baa53d5b248a01d2, type: 3}
+  weaponUseAudio: {fileID: 8300000, guid: ecd2ee5901d878a49b13844d8cf78ded, type: 3}
+  useTime: 0.5
+  spawnable: {fileID: 6328625483830180636, guid: 5e9e2a2808f27724d8c041b4166a293a, type: 3}
+  maxAmmo: 50
+  maxMagazineAmmo: 7
+  reloadTime: 2
+  knockBack: 10
+  reloadAudio: {fileID: 8300000, guid: 9a2d9001615542d44b1b40d08262de7d, type: 3}

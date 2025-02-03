@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd0f311075cbae9419faeb81370e7dc2, type: 3}
+  m_Name: Zombie2
+  m_EditorClassIdentifier: 
+  speed: 3.5
+  attackSpeed: 1
+  attackRange: 0.5
+  damage: 1
+  animator: {fileID: 22100000, guid: 050556270436d4f4288557291a1a99c0, type: 2}
+  maxHealth: 8
+  coins: 3
+  score: 1
+  deathAudio: {fileID: 8300000, guid: d5499cdf8af13194cbba0a3580f1303f, type: 3}
+  attackAudio: {fileID: 8300000, guid: 5c622f464e7b7a146b2b4ee6c18f3757, type: 3}

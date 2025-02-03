@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd0f311075cbae9419faeb81370e7dc2, type: 3}
+  m_Name: SlowSkeleton
+  m_EditorClassIdentifier: 
+  speed: 1.5
+  attackSpeed: 1
+  attackRange: 0.5
+  damage: 2
+  animator: {fileID: 22100000, guid: 8d1d920724ffb8a409ce0e458dc4b7a9, type: 2}
+  maxHealth: 5
+  coins: 2
+  score: 1
+  deathAudio: {fileID: 8300000, guid: 9bdf972cea338cf47afd7282cc886be6, type: 3}
+  attackAudio: {fileID: 8300000, guid: 8cc2ca2ed5fe1d2409ddc8833510b017, type: 3}
